@@ -33,6 +33,7 @@ module.exports = function(grunt) {
       compile: {
         files: {
           'tmp/jade.html': ['test/fixtures/jade.jade'],
+          'tmp/jadeWithTabs.html': ['test/fixtures/jadeWithTabs.jade'],
           'tmp/jade2.html': ['test/fixtures/jade2.jade'],
           'tmp/jadeInclude.html': ['test/fixtures/jadeInclude.jade'],
           'tmp/jadeTemplate.html': ['test/fixtures/jadeTemplate.jade']
